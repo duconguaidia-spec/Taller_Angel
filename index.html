@@ -1,68 +1,323 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio — Desarrollador de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Mi Portafolio Digital</h1>
-    
-    <img src="foto.jpeg" alt="Mi foto" width="200">
-    
-    <h2>Descripción</h2>
-    <p>
-        Bienvenido a mi portafolio digital. Este espacio ha sido creado con el propósito 
-        de mostrar mis habilidades, conocimientos y proyectos desarrollados a lo largo de mi formación académica.
-    </p>
-    <p>
-        En este portafolio encontrarás información sobre mis estudios, conocimientos técnicos, hobbies y sueños.
-    </p>
-    
-    <h2>Conocimientos</h2>
+
+  <nav>
     <ul>
-        <li>Excel Avanzado</li>
-        <li>conocimientos integrales en hardware (ensamble, reparación)</li>
-        <li>redes (configuración de routers, switches, cableado estructurado)</li>
-        <li>Programación básica (Python, JavaScript, Html, Css)</li>
+      <li><a href="#inicio">Angel Santiago</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#conocimientos">Skills</a></li>
+      <li><a href="#estudios">Estudios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
     </ul>
+  </nav>
+
+  <div class="page">
+
     
-    <h2>Estudios</h2>
-    <ul>
-        <li>Bachiller Tecnico (Braulio Gonzalez)</li>
-        <li>Tecnico En Sistemas (Sena)</li>
-        <li>Tecnica Practica En Sistemas (CasaSistemas)</li>
-    </ul>
-    <h4>Actualmente Estudio</h4>
-    <ul>
-        <li>Tecnologo En Analisis Y Desarrollo De Software (Sena)</li>
-        <li>Ingenieria En Sistemas (Universidad Uniremingtopn)</li>
-    </ul>
+    <section class="hero" id="inicio">
+      <div>
+        <div class="hero-label">Disponible para oportunidades</div>
+        <h1>Desarrollador de Software & Sistemas</h1>
+        <p class="hero-desc">
+          Técnico en Sistemas y estudiante de Ingeniería, apasionado por construir
+          soluciones tecnológicas eficientes. Experiencia en hardware, redes y
+          desarrollo web.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contacto" class="btn-primary">Contáctame →</a>
+          <a href="#conocimientos" class="btn-secondary">Ver habilidades</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Años estudiando</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Títulos obtenidos</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2</div>
+            <div class="stat-label">En curso</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="foto.jpeg" alt="Mi foto">
+        <div class="photo-badge">
+        Abierto a trabajar
+        </div>
+      </div>
+    </section>
+
     
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Estudiar</li>
-        <li>Jugar Videojuegos</li>
-        <li>Dormir</li>
-        <li>Comer</li>
-        <li>Escuchar Música</li>
-        <li>Programar</li>
-    </ul>
+    <section class="section" id="sobre-mi">
+      <div class="reveal">
+        <p class="section-label">Perfil</p>
+        <h2 class="section-title">Sobre mí</h2>
+      </div>
+      <div class="about-grid">
+        <div class="reveal reveal-delay-1">
+          <p class="about-text">
+            Bienvenido a mi portafolio digital. Este espacio ha sido creado con el
+            propósito de mostrar mis habilidades, conocimientos y proyectos
+            desarrollados a lo largo de mi formación académica.
+          </p>
+          <br>
+          <p class="about-text">
+            Me apasiona la tecnología en todas sus formas: desde el ensamble de
+            equipos hasta el desarrollo de software. Actualmente me encuentro
+            cursando Ingeniería en Sistemas y el Tecnólogo en ADSO en el SENA,
+            buscando siempre crecer profesionalmente.
+          </p>
+        </div>
+        <div style="display: grid; gap: 14px;">
+          <div class="about-card reveal reveal-delay-2">
+            <div class="about-card-title">Hardware & Infraestructura</div>
+            <p class="about-card-text">Ensamble, reparación de equipos y configuración de redes estructuradas.</p>
+          </div>
+          <div class="about-card reveal reveal-delay-3">
+            <div class="about-card-title">Desarrollo de Software</div>
+            <p class="about-card-text">Programación en Python, JavaScript, HTML y CSS con bases sólidas.</p>
+          </div>
+          <div class="about-card reveal reveal-delay-4">
+            <div class="about-card-title">Enfoque y Aprendizaje</div>
+            <p class="about-card-text">Comprometido con el aprendizaje continuo y la mejora constante.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
-    <h2>Sueños</h2>
-    <ul>
-        <li>1. Ser un gran programador</li>
-        <li>2. terminar mis estudios</li>
-        <li>3. Tener una empresa de tecnología</li>
-        <li>4. Viajar por el mundo</li>
-        <li>5. Ayudar a mi familia</li>
-    </ul>
+    <section class="section" id="conocimientos">
+      <div class="reveal">
+        <p class="section-label">Habilidades técnicas</p>
+        <h2 class="section-title">Conocimientos</h2>
+      </div>
+
+      <div class="skills-group reveal reveal-delay-1">
+        <p class="skills-group-label">Ofimática & Datos</p>
+        <ul class="skills-list">
+          <li>Excel Avanzado</li>
+        </ul>
+      </div>
+
+      <div class="skills-group reveal reveal-delay-2">
+        <p class="skills-group-label">Hardware & Redes</p>
+        <ul class="skills-list">
+          <li>Ensamble de equipos</li>
+          <li>Reparación de hardware</li>
+          <li>Configuración de routers</li>
+          <li>Configuración de switches</li>
+          <li>Cableado estructurado</li>
+        </ul>
+      </div>
+
+      <div class="skills-group reveal reveal-delay-3">
+        <p class="skills-group-label">Lenguajes & Desarrollo</p>
+        <ul class="skills-list">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+    </section>
+
     
-    <h2>Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VxrIZGQfxmE" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <section class="section" id="estudios">
+      <div class="reveal">
+        <p class="section-label">Formación académica</p>
+        <h2 class="section-title">Estudios</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-card">
+            <div>
+              <div class="timeline-degree">Bachiller Técnico</div>
+              <div class="timeline-org">Institución Educativa Braulio González</div>
+            </div>
+            <span class="badge badge-completed">Graduado</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-card">
+            <div>
+              <div class="timeline-degree">Técnico en Sistemas</div>
+              <div class="timeline-org">SENA</div>
+            </div>
+            <span class="badge badge-completed">Graduado</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-card">
+            <div>
+              <div class="timeline-degree">Técnica Práctica en Sistemas</div>
+              <div class="timeline-org">CasaSistemas</div>
+            </div>
+            <span class="badge badge-completed">Graduado</span>
+          </div>
+        </div>
+
+        <div class="timeline-item active reveal reveal-delay-4">
+          <div class="timeline-card">
+            <div>
+              <div class="timeline-degree">Tecnólogo en Análisis y Desarrollo de Software</div>
+              <div class="timeline-org">SENA</div>
+            </div>
+            <span class="badge badge-active">En curso</span>
+          </div>
+        </div>
+
+        <div class="timeline-item active reveal reveal-delay-4">
+          <div class="timeline-card">
+            <div>
+              <div class="timeline-degree">Ingeniería en Sistemas</div>
+              <div class="timeline-org">Universidad Uniremington</div>
+            </div>
+            <span class="badge badge-active">En curso</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
+    <section class="section" id="hobbies">
+      <div class="reveal">
+        <p class="section-label">Intereses personales</p>
+        <h2 class="section-title">Hobbies</h2>
+      </div>
+      <div class="hobbies-grid reveal reveal-delay-1">
+        <div class="hobby-card">
+          <span class="hobby-name">Estudiar</span>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-name">Videojuegos</span>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-name">Descansar</span>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-name">Gastronomía</span>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-name">Música</span>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-name">Programar</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="suenos">
+      <div class="reveal">
+        <p class="section-label">Visión a futuro</p>
+        <h2 class="section-title">Metas & Sueños</h2>
+      </div>
+      <ul class="dreams-list reveal reveal-delay-1">
+        <li>
+          <span class="dream-number">01</span>
+          <span>Convertirme en un gran programador</span>
+        </li>
+        <li>
+          <span class="dream-number">02</span>
+          <span>Culminar todos mis estudios</span>
+        </li>
+        <li>
+          <span class="dream-number">03</span>
+          <span>Fundar una empresa de tecnología</span>
+        </li>
+        <li>
+          <span class="dream-number">04</span>
+          <span>Viajar y conocer el mundo</span>
+        </li>
+        <li>
+          <span class="dream-number">05</span>
+          <span>Ayudar y apoyar a mi familia</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="video">
+      <div class="reveal">
+        <p class="section-label">Contenido</p>
+        <h2 class="section-title">Video</h2>
+      </div>
+      <div class="video-container reveal reveal-delay-1">
+        <iframe src="https://www.youtube.com/embed/VxrIZGQfxmE"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    
+    <section class="contact-section" id="contacto">
+      <div class="reveal">
+        <p class="section-label">¿Hablamos?</p>
+        <h2 class="section-title">Contacto</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:duconguaidia@gmail.com" class="contact-card reveal reveal-delay-1">
+          <div>
+            <div class="contact-label">Correo electrónico</div>
+            <div class="contact-value">duconguaidia@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+573238019290" class="contact-card reveal reveal-delay-2">
+          <div>
+            <div class="contact-label">Teléfono / WhatsApp</div>
+            <div class="contact-value">+57 323 801 9290</div>
+          </div>
+        </a>
+        <a href="https://github.com/duconguaidia-spec" target="_blank" class="contact-card reveal reveal-delay-4">
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">github.com/duconguaidia-spec</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  
+  <footer>
+    <strong>Angel Santiago Ducon Guaidia</strong> · Desarrollador de Software · 2026
+  </footer>
+
+  
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.reveal').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) el.classList.add('visible');
+      });
+    });
+  </script>
+
 </body>
 </html>
