@@ -6,11 +6,6 @@ Repositorio para realización del taller de portafolio
 
 ---
 
-## Demo
-
-
----
-
 ## Sobre el proyecto
 
 Este portafolio fue creado con el propósito de presentar de forma profesional mis habilidades técnicas, estudios y metas personales. Está construido completamente desde cero.
@@ -50,5 +45,5 @@ Este portafolio fue creado con el propósito de presentar de forma profesional m
 ---
 
 <p align="center">
-  Hecho con 💙 por <strong>Angel Santiago Ducon Guaidia</strong> · 2026
+  <strong>Angel Santiago Ducon Guaidia</strong> · 2026
 </p>
