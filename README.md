@@ -16,13 +16,13 @@ Este portafolio fue creado con el propósito de presentar de forma profesional m
 
 | Sección | Descripción |
 |---|---|
-| **Inicio / Hero** | Presentación principal con estadísticas y llamados a la acción |
-| **Sobre mí** | Descripción personal y áreas de enfoque |
+| **Inicio** | Presentación principal |
+| **Sobre mí** | Descripción personal y mis áreas de enfoque |
 | **Conocimientos** | Habilidades técnicas agrupadas por categoría |
-| **Estudios** | Timeline de formación académica |
-| **Hobbies** | Intereses personales |
+| **Estudios** | En formación académica y  |
+| **Hobbies** | Mis intereses personales |
 | **Metas & Sueños** | Visión a futuro |
-| **Video** | Contenido embebido de YouTube |
+| **Video** | Contenido traido desde YouTube |
 | **Contacto** | Correo, WhatsApp y GitHub |
 
 ---
